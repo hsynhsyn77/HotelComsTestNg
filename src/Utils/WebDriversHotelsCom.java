@@ -73,8 +73,6 @@ public class WebDriversHotelsCom {
     void loginTest() {
         WebElement inputEntrance = driver.findElement(By.id("gc-custom-header-nav-bar-acct-menu"));
         inputEntrance.click();
-        //[class='actions']>a
-        ////a[@class='uitk-button uitk-button-medium uitk-button-fullWidth uitk-button-has-text uitk-button-as-link uitk-button-primary']
         WebElement entRance = driver.findElement(By.cssSelector("a[class='uitk-button uitk-button-medium uitk-button-fullWidth uitk-button-has-text uitk-button-as-link uitk-button-primary']"));
         entRance.click();
         WebElement inputMail = driver.findElement(By.id("loginFormEmailInput"));
@@ -146,6 +144,7 @@ public class WebDriversHotelsCom {
 
 
     }
+
 
 
 }
